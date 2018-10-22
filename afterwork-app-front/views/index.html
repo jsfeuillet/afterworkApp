@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bare - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.css">
+
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Afterwork App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Register
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h1 class="mt-5">AfterWork App</h1>
+          <p class="lead">Register Now!</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-4 offset-md-4">
+        <form>
+          <div class="form-group">
+            <label>Name:</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter name">
+          </div>
+          <div class="form-group">
+            <label>User:</label>
+            <input type="text" class="form-control" id="user" placeholder="Enter user">
+          </div>
+          <div class="form-group">
+            <label>Mail:</label>
+            <input type="email" class="form-control" id="mail" placeholder="Enter email">
+          </div>
+
+          <button type="button" class="btn btn-default" id="register" onclick="registerUser()">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <div id="myModal" class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="mySmallModalLabel">Registro de un usuario</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body" id="register-result">
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="jquery/dist/jquery.js"></script>
+    <script src="/javascripts/home-page.js"></script>
+    <script src="/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
